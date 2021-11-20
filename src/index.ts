@@ -12,7 +12,7 @@ process.on("uncaughtException", (error) => {
 (async () => {
 	try {
 		const cpus = Config.IS_PROD ? Config.CORES : 1;
-		if (cluster.isPrimary) {
+		if (cluster.isPrimary && Config.IS_PROD) {
 			for (let i = 0; i < cpus; i++) {
 				cluster.fork();
 			}

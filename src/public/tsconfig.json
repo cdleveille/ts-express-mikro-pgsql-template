@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"target": "esnext",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"*": [
+				"../../node_modules/*"
+			]
+		},
+		"sourceMap": false,
+		"outDir": "../../public/build",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"skipLibCheck": true
+	},
+	"include": [
+		"./*.ts"
+	]
+}

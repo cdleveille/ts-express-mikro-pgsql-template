@@ -1,0 +1,4 @@
+build/**/*
+src/migrations/**/*
+public/**/*
+public.min/**/*

@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "build"
+		},
+		{
+			"type": "npm",
+			"script": "buildpublic",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "none",
+			"label": "buildpublic"
+		}
+	]
+}
